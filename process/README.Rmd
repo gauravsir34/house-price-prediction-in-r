@@ -1,0 +1,23 @@
+---
+output: github_document
+---
+
+```{r setup, include = FALSE}
+# The README markdown generate by this rmd file, please edit the content within this R markdown.
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  message = FALSE,
+  error = FALSE,
+  warning = FALSE,
+  fig.path = "plot/",
+  fig.align = "center",
+  echo = FALSE
+)
+```
+
+# Melbourne House Price Prediction - Data Processing
+
+### Data Files
+
+* [`spilt_train_data.R`](https://github.com/Jiaying-Wu/Grocery-Sales-Forecasting/blob/master/process/spilt_train_data.R): R Script to split training data at local train set and local test set under 85/15 ratio.
